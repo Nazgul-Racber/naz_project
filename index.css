@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+ 
+ body{
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.882);
+
+}
+
+
+h1{
+  margin: 20px;
+  padding: 20px;
+  color: white;
+  /* font-family: 'Archivo Black', sans-serif; */
+  font-family: 'Cabin Sketch', cursive;
+  font-weight: 700;
+  font-size: 50px;
+  height: 100px;
+
+}
+
+.text-shadow{
+  text-shadow:3px 5px 5px rgb(221, 182, 109);
+}
+
+.top-nav a{
+  text-decoration: none;
+  color: white;
+  background-color: rgb(205, 146, 38);
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  
+}
+
+.top-nav a:hover{
+  opacity: 0.7;
+  color: aqua;
+}
+
+.main{
+  margin:50px;
+  font-size: xx-large;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+  font-style: italic;
+}
+
+p{
+  color: antiquewhite;
+  font-size: larger;
+  /* font-family: 'Archivo Black', sans-serif; */
+  font-family: 'Cabin Sketch', cursive;
+
+}
+/* my project */
+.div{
+  margin: 200px;
+  color: antiquewhite;
+  text-decoration: underline;
+  font-style: normal;
+  margin-bottom: 20px;
+}
+
+.img-div img{
+  border-radius: 10px;
+  height: 350px;
+}
+.img-div img:hover{
+  opacity: 0.5; /* örneğin resmin opaklığı azaltılabilir */
+  cursor: pointer;
+  transform: scale(0.9);
+}
+/* footer */
+
+h3 {
+  color: #fd5c63;
+  font-size: 24px;
+  display: inline-block;
+  border-bottom: 2px solid;
+  /* text-decoration: underline; */
+  margin: 20px auto;
+}
+
+
+footer nav a {
+  text-decoration: none;
+  color: wheat;
+  margin-right: 4em;
+  font-size: 20px;
+  font-weight: 700;
+}
+footer nav a:hover {
+    color: tomato;
+    font-weight: bolder;
+}
+p {
+  font-family: "Rampart One", cursive;
+  font-size: 28px;
+  color: #ffebcd;
+  margin: 1em auto;
+}
+img:hover {
+  opacity: 0.5;
+}
+
+i:hover {
+  color: tomato;
+}
+h4 {
+    font-size: 19px;
+    margin: 15px auto;
+    color: wheat;
+}
+
+input,
+textarea , 
+button {
+  width: 50%;
+  display: block;
+  border: 2px solid gray;
+  margin: 15px auto;
+  font-size: 20px;
+  outline: 0;
+  border-radius: 7px;
+  padding: 12px;
+  line-height: 22px;
+  /* background-color : transparent; */
+}
+textarea {
+  height: 200px;
+  resize: vertical;
+}
+input:focus,
+textarea:focus {
+  border: 2px solid tomato;
+}
+.btn {
+  background-color: gray;
+  font-size: 26px;
+  font-weight: 900;
+}
+.btn:hover {
+  color: rgb(203, 44, 16);
+  transform: scale(0.99);
+  cursor: pointer;
+}
+
+.top{
+    text-align: right;
+    font-size: 24px;
+    margin: 15px;
+    
+}
+.top a{
+  color: wheat;
+    text-decoration: none;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 10px;
+    display: inline-block;
+    width: 100px;
+}
+.top a:hover{
+  color: rgb(203, 44, 16);
+  transform: scale(0.99);
+}
