@@ -4,16 +4,17 @@
   box-sizing: border-box;
   text-align: center;
 }
- 
+
  body{
   display: inline-block;
   background-color: rgba(0, 0, 0, 0.882);
-
+  
 }
 
 
+
 h1{
-  margin: 20px;
+  margin: 30px;
   padding: 20px;
   color: white;
   /* font-family: 'Archivo Black', sans-serif; */
@@ -28,6 +29,11 @@ h1{
   text-shadow:3px 5px 5px rgb(221, 182, 109);
 }
 
+.text-shadow:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
 .top-nav a{
   text-decoration: none;
   color: white;
@@ -39,11 +45,14 @@ h1{
   margin-right: 10px;
   display: inline-block;
   
+  
 }
 
 .top-nav a:hover{
   opacity: 0.7;
-  color: aqua;
+  color: rgb(90, 232, 232);
+  box-shadow: 3px 3px 3px rgba(54, 235, 214, 0.8);
+  transform: scale(1.1);
 }
 
 .main{
@@ -65,11 +74,18 @@ p{
 .div{
   margin: 200px;
   color: antiquewhite;
+  font-size: larger;
   text-decoration: underline;
   font-style: normal;
   margin-bottom: 20px;
   /* font-family: 'Archivo Black', sans-serif; */
   font-family: 'Cabin Sketch', cursive;
+  text-shadow:3px 5px 5px rgb(221, 182, 109);
+}
+
+.div h2:hover{
+  cursor: pointer;
+  transform: scale(0.9);
 }
 
 .img-div img{
@@ -159,7 +175,7 @@ textarea:focus {
 .top{
     text-align: right;
     font-size: 24px;
-    margin: 15px;
+    margin: 40px;
     
 }
 .top a{
@@ -175,3 +191,5 @@ textarea:focus {
   color: rgb(203, 44, 16);
   transform: scale(0.99);
 }
+ 
+  
